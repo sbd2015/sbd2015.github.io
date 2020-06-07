@@ -1,47 +1,45 @@
-title:            Balzac
-tagline:          A beautiful theme.
-description:      Describe your website.
+title: Changhwan's Blog
+tagline: A beautiful theme.
+description: Welcome to Changhwan's Blog.
 canonical: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
-  avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco
-  github:         coletownsend
-  instagram:      ctrunsthis
-  dribbble:       coletownsend
-  disqus:         balzac
-  location:       "Buffalo, NY"
+  name: Changhwan Lee
+  avatar: avatar.png
+  bio: "Aesthete & Athlete"
+  email: cole@coletownsend.com
+  twitter: twnsndco
+  github: coletownsend
+  instagram: ctrunsthis
+  dribbble: coletownsend
+  disqus: balzac
+  location: "Buffalo, NY"
   # Plug in your disqus shortname!
 
 tools:
-  standards:      "HTML, SCSS, Jekyll"
-  software:       "git"
+  standards: "HTML, SCSS, Jekyll"
+  software: "git"
 
 # Open Graph customization
 opengraph:
-  locale:           en_US
+  locale: en_US
 
 # Links to include in top navigation
 # For external links add external: true
 links:
   - title: About
     url: /about
-  - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
-    external: true
+  - title: Daily
+    url: /daily
+  - title: Tech
+    url: /tech
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
+timezone: Europe/Berlin
+future: true
 highlighter: pygments
-markdown:    kramdown
+markdown: kramdown
 
 kramdown:
   auto_ids: true
@@ -58,10 +56,20 @@ kramdown:
     coderay_css: class
 
 sass:
-    style: :compressed
+  style: :compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink: /:categories/:title
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+exclude:
+  [
+    "lib",
+    "config.rb",
+    "Capfile",
+    "config",
+    "log",
+    "Rakefile",
+    "Rakefile.rb",
+    "tmp",
+  ]
