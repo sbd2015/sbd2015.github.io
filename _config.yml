@@ -73,3 +73,5 @@ exclude:
     "Rakefile.rb",
     "tmp",
   ]
+
+theme: jekyll-theme-cayman
