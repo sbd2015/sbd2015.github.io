@@ -7,7 +7,6 @@ canonical: https://changhwansblog.com
 owner:
   name: Changhwan Lee
   avatar: avatar.png
-  bio: "Aesthete & Athlete"
   email: lchh5887@gmail.com
 
 tools:
@@ -50,6 +49,13 @@ kramdown:
 
 sass:
   style: :compressed
+  
+
+#Analytics 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-169899511-1"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:title
