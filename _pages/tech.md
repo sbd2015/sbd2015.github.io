@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /tech/index.html
+permalink: /tech/
 title: "Tech"
 tags: [blog, graphic design]
 image:
