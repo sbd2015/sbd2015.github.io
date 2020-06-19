@@ -49,9 +49,8 @@ kramdown:
 
 sass:
   style: :compressed
-  
 
-#Analytics 
+#Analytics
 analytics:
   provider: "google-gtag"
   google:
@@ -60,7 +59,7 @@ analytics:
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:title
 
-include: [".htaccess"]
+include: [".htaccess", "_pages"]
 exclude:
   [
     "lib",
